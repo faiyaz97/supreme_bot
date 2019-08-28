@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            min-width: 420px;
+            overflow-x: hidden;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+        }
+        input, textarea {
+            width: 420px;
+        }
+        input#save {
+            font-weight: bold; width: auto;
+        }
+    </style>
+    <script src="popup.js"></script>
+</head>
+<body>
+    <form id="addbookmark">
+        <p>
+            <label for="full_name">Full name</label><br />
+            <input type="text" id="full_name" name="full_name" size="50" value="" />
+        </p>
+        <p>
+            <label for="Email">Email</label><br />
+            <input type="text" id="Email" name="Email" size="50" value="" />
+        </p>
+        <p>
+          <label for="Tel">Tel</label><br />
+          <input type="text" id="Tel" name="Tel" size="50" value="" />
+        </p>
+        <p>
+          <label for="Address">Address</label><br />
+          <input type="text" id="Address" name="Address" size="50" value="" />
+        </p>
+        <p>
+          <label for="City">City</label><br />
+          <input type="text" id="City" name="City" size="50" value="" />
+        </p>
+        <p>
+          <label for="Postcode">Postcode</label><br />
+          <input type="text" id="Postcode" name="Postcode" size="50" value="" />
+        </p>
+        <p>
+          <label for="Card_number">Card number</label><br />
+          <input type="text" id="Card_number" name="Card_number" size="50" value="" />
+        </p>
+        <p>
+          <label for="Card_CVV">Card CVV</label><br />
+          <input type="text" id="Card_CVV" name="Card_CVV" size="50" value="" />
+        </p>
+
+        <!--Submit button-->
+        <p>
+            <input id="start_bot" type="submit" value="Start bot" />
+            <span id="status-display"></span>
+        </p>
+    </form>
+</body>
+</html>
